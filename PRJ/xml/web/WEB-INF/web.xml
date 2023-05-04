@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    
+    <context-param>
+        <param-name>global</param-name>
+        <param-value>Common Param</param-value>
+    </context-param>
+    
+    <servlet>
+        <servlet-name>FirstServlet</servlet-name>
+        <servlet-class>servlet.FirstServlet</servlet-class>
+        <init-param>
+            <param-name>local1</param-name>
+            <param-value>Param 1 for First Servlet</param-value>
+        </init-param>
+        <init-param>
+            <param-name>local2</param-name>
+            <param-value>Param 2 for First Servlet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FirstServlet</servlet-name>
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>servlet.SecondServlet</servlet-class>
+        <init-param>
+            <param-name>local1</param-name>
+            <param-value>Param 1 for Second Servlet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondServlet</servlet-name>
+        <url-pattern>/second</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

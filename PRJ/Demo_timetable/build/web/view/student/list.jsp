@@ -1,0 +1,49 @@
+<%-- 
+    Document   : list
+    Created on : Sep 30, 2022, 11:34:31 AM
+    Author     : Ngo Tung Son
+--%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <script>
+            function removeStudent(id)
+            {
+                var result = confirm("are you sure?");
+                if(result)
+                    window.location.href = 'delete?id='+id;
+            }
+            
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <c:forEach items="${requestScope.students}" var="s">
+                <tr>
+                <td>${s.id}</td>
+                <td>${s.name}</td>
+                <td>${s.gender}</td>
+                <td>${s.dob}</td>
+                <td>${s.created_time}</td>
+                <td><a href="edit?id=${s.id}">Edit</a></td>
+                <td><a href="#" onclick="removeStudent(${s.id});">Delete</a></td>
+            </tr>
+            </c:forEach>
+        </table>
+        <a href="insert">Add new Student</a>
+    </body>
+</html>

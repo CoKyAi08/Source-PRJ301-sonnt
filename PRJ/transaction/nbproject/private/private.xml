@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/dal/StudentDBContext.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/dal/DepartmentDBContext.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/model/Student.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/dal/DBContext.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/controller/student/ListController.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/web/view/student/list.jsp</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/web/view/student/edit.jsp</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/controller/student/DeleteController.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/helper/DateTimeHelper.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/web/view/student/insert.jsp</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/controller/student/InsertController.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/model/Department.java</file>
+            <file>file:/C:/Users/Ngo%20Tung%20Son/Documents/GitHub/PRJ301-MyAssignment/Slot2Day246_Demo/src/java/controller/student/EditController.java</file>
+        </group>
+    </open-files>
+</project-private>

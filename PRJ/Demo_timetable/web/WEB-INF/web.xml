@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ListStudentController</servlet-name>
+        <servlet-class>controller.student.ListController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertStudentController</servlet-name>
+        <servlet-class>controller.student.InsertController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditController</servlet-name>
+        <servlet-class>controller.student.EditController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteStudentController</servlet-name>
+        <servlet-class>controller.student.DeleteController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListStudentController</servlet-name>
+        <url-pattern>/student/list</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertStudentController</servlet-name>
+        <url-pattern>/student/insert</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditController</servlet-name>
+        <url-pattern>/student/edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteStudentController</servlet-name>
+        <url-pattern>/student/delete</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
